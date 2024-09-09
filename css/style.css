@@ -1,0 +1,33 @@
+body {
+    background-color: #310047;
+    color: #ffa345
+}
+a {
+    color:#ffa345
+}
+.card-grid img {
+    max-width: 100%;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 1rem;
+} 
+
+.card-grid {
+    max-width: 100%;
+}
+
+@media (min-width:641px) {
+ .card-container {
+    grid-template-columns: 1fr 1fr;
+ }
+}
+
+@media (min-width:1025px) {
+    .card-container {
+        grid-template-columns: 1fr 1fr 1fr;
+     }
+} 
